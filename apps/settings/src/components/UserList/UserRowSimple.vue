@@ -174,10 +174,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 	.cellText {
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+}
+	.icon-more {
+		background-color: var(--color-main-background);
+		background-image: var(--icon-more-000);
+		border: 0;
 	}
 </style>
